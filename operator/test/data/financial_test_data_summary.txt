@@ -1,0 +1,34 @@
+Financial Test Data Summary
+==============================
+
+Data shape: (90720, 14)
+Tickers: ['AAPL', 'AMZN', 'BABA', 'BIDU', 'CRM', 'GOOGL', 'JD', 'LI', 'META', 'MSFT', 'NFLX', 'NIO', 'NVDA', 'ORCL', 'TSLA']
+Time range: 0 - 6047
+Columns: ['ticker', 'time', 'open', 'high', 'low', 'close', 'vwap', 'volume', 'turnover', 'amount', 'returns', 'pct_change', 'spread', 'relative_position']
+
+Basic Statistics:
+--------------------
+close:
+  mean: 18713210.044639
+  std: 127555957.321368
+  min: 0.000806
+  max: 2723494552.368458
+
+volume:
+  mean: 63356809.879897
+  std: 1425284270.324484
+  min: 21127.743744
+  max: 279483250830.000671
+
+returns:
+  mean: 0.000196
+  std: 0.083716
+  min: -2.814518
+  max: 2.023987
+
+spread:
+  mean: 1766321.765376
+  std: 17598696.027392
+  min: 0.000005
+  max: 1760224169.988816
+
