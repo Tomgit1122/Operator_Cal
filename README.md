@@ -1,4 +1,4 @@
-# OKX Operator Engine
+# Operator Engine
 
 A production-ready expression engine that converts string expressions to Polars operations for financial data analysis. **Completely solves the nested window function over repetition problem**.
 
@@ -129,7 +129,7 @@ ctx = EvalContext(
 ## 📁 Project Structure
 
 ```
-okx-operator/
+operator/
 ├── src/                        # Core engine implementation
 │   ├── main_engine.py          # Main expression engine
 │   └── core/
@@ -216,4 +216,4 @@ This is a production-ready financial expression engine. The core functionality i
 
 ## 📄 License
 
-Internal OKX project - Production ready for financial factor computation.
+Internal project - Production ready for financial factor computation.
